@@ -9,7 +9,7 @@
 }
 
 body{
-	background: linear-gradient(to bottom , #ebecee, #fff);
+	background: linear-gradient(to right, #3525af, #9153c9);
 }
 
 .resume{
@@ -20,30 +20,27 @@ body{
 }
 
 .left{
-	background: #ebecee;
+	background: #292b2f;
 	width: 250px;
 	padding: 0 20px;
-	
 }
-
-
 
 .right{
 	width: calc(100% - 250px);
 }
 
-.Photo .img_holder{
+.left .img_holder{
 	text-align: center;
-	padding: 19px 0;
+	padding: 20px 0;
 }
 
-.Photo .img_holder img{
+.left .img_holder img{
 	width: 200px;
 	border-radius: 30px;
 }
 
 .pb{
-	padding-bottom: 12px;
+	padding-bottom: 20px;
 }
 
 .title{
@@ -52,10 +49,9 @@ body{
 	text-transform: uppercase;
 	letter-spacing: 5px;
 	padding-bottom: 10px;
-	/* ganti warna font judul section */
-	color: #4c4d4f;
+	color: #3525af;
 	position: relative;
-	text-align: left;
+	text-align: right;
 	margin-bottom: 15px;
 }
 
@@ -63,21 +59,19 @@ body{
 	content: "";
 	position: absolute;
 	top: 35px;
+	right: 0;
 	width: 50px;
 	height: 3px;
-	/* ganti warna garis bawah title */
-	background: #4c4d4f;
+	background: #3525af;
 }
 
 .left .icon{
 	font-size: 20px;
-	/* ganti warna Icon Skill dan contact */
-	color: #4c4d4f;
+	color: #9153c9;
 }
 
 .left .text{
-	/* ganti warna tex Skill dan contact */
-	color: #4c4d4f;
+	color: #9153c9;
 	text-transform: uppercase;
 	font-size: 13px;
 }
@@ -103,6 +97,7 @@ body{
 .contact .li_wrap .text{
 	width: calc(100% - 50px);
 	word-break: break-word;
+	color: #fff;
 }
 
 .skills ul,
@@ -125,7 +120,6 @@ body{
 }
 
 .skills .li_wrap{
-	/* ganti warna kotak background skill */
 	background: #fff;
 }
 
@@ -135,48 +129,35 @@ body{
 }
 
 .hobbies .li_wrap{
-	/* ganti warna garis kotak Hobbies */
 	border: 2px solid #fff;
 }
 
 .hobbies .li_wrap .icon,
 .hobbies .li_wrap .text{
-	/* ganti warna text Hobbies */
-	color: #4c4d4f;
+	color: #fff;
 }
 
 .hobbies .li_wrap:hover{
-	/* ganti warna ke 2 kotak Hobbies */
 	background: #fff;
 }
 
 .hobbies .li_wrap:hover .icon,
 .hobbies .li_wrap:hover .text{
-	color: #4c4d4f;
+	color: #9153c9;
 }
 
 .header{
-	/* ganti warna background header */
-	background: #4c4d4f;
+	background: #292b2f;
 	padding: 15px 30px;
-	/* ganti Font background header */
 	color: #fff;
 	height: 240px;
-	position: relative;
 }
 
-.Photo{
-	/* ganti background warna di box photo */
-	background: #4c4d4f;
-	width: 270px;
-	height: 240px;
-}
 .header .name{
 	font-size: 52px;
 	text-transform: uppercase;
 	font-weight: 700;
-	/* ganti Font Nama di header */
-	color: white;
+	color: #3525af;
 }
 
 .header .role{
@@ -188,17 +169,10 @@ body{
 	margin-top: 20px;
 	line-height: 26px;
 }
-.name_role {
-    position: absolute;
-    top: 50%;
-    left: 35%;
-    transform: translate(-50%, -50%);
-}
 
 .right_inner{
 	padding: 30px;
-	/* ganti warna font detail pekerjaan dan pendidikan */
-	color: #4c4d4f;
+	color: #292b2f;
 }
 
 .right_inner .education{
@@ -212,8 +186,7 @@ body{
 
 .right_inner .li_wrap .date {
     width: 125px;
-	/* ganti warna font tahun pekerjaan */
-    color: #4c4d4f;
+    color: #9153c9;
 }
 
 .right_inner .li_wrap .info{
@@ -226,8 +199,7 @@ body{
 	text-transform: uppercase;
 	font-weight: 700;
 	letter-spacing: 2px;
-	/* ganti warna font title perkerjaan */
-	color: #4c4d4f;
+	color: #9153c9;
 }
 
 .right_inner .li_wrap .info_com{
@@ -247,7 +219,7 @@ body{
 	left: 0;
 	width: 10px;
 	height: 10px;
-	background: #4c4d4f;
+	background: #9153c9;
 	border-radius: 50%;
 }
 
@@ -258,5 +230,5 @@ body{
 	left: 4px;
 	width: 2px;
 	height: 90%;
-	background: #4c4d4f;
+	background: #9153c9;
 }
